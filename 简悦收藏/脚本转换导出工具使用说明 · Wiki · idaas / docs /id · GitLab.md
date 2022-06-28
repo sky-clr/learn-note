@@ -9,7 +9,7 @@ Last edited by [![](http://git.koal.com/assets/no_avatar-849f9c04a3a0d0cea2424ae
 导出开发环境 id_t_identity_ext 表，MYSQL,DM,KB 三种格式脚本
 
 ```
-java -jar sql-compare.jar --action=EXPORT --db-type=MYSQL --s1=root:Koal@123456@10.0.249.133:3306/idaas --script-db-type=MYSQL,DM,KB --tables=id_t_identity_ext
+java -jar sql-compare.jar --action=EXPORT --db-type=MYSQL --s1=root:Koal@123456@10.0.249.133:3306/idaas --script-db-type=MYSQL,DM,KB --tables=id_app_slave_account_idlist,id_t_downstream_base_log,id_t_downstream_detail_log
 ```
 
 
