@@ -5,14 +5,14 @@
 Last edited by [![](http://git.koal.com/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png) **王满满**](http://git.koal.com/wangmanman) 20 hours ago
 
 该工具由罗鑫余提供
-
+   
 导出开发环境 id_t_identity_ext 表，MYSQL,DM,KB 三种格式脚本
 
 ```
 java -jar sql-compare.jar --action=EXPORT --db-type=MYSQL --s1=root:Koal@123456@10.0.249.133:3306/idaas --script-db-type=MYSQL,DM,KB --tables=id_t_identity_ext
 ```
 
-[sql-compare.jar](http://git.koal.com/idaas/docs/id/-/wikis/uploads/35953cd70563c6cf77072224b0d76c1c/sql-compare.jar)
+
 
 工具使用及参数信息：
 
